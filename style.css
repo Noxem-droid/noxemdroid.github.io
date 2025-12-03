@@ -1,0 +1,55 @@
+/*Body style*/
+body {
+ background-color: #F2D9AB;
+ font-family: Courier New;
+ font-size: 25px;
+ text-align: center;
+}
+
+body { animation: rotate 3s; }
+@keyframes rotate {
+	 0% { transform: rotate(0deg); }
+	 100% { transform: rotate(360deg); }
+}
+
+/*Header style*/
+h1 {
+ color: white;
+ text-align: center;
+ font-family: Brush Script MT;
+ font-size: 100px; 
+}
+
+h2 {
+ color: white;
+ text-align: center;
+ font-family: Brush Script MT;
+ font-size: 52px;
+}
+
+/*Other annoying stuff*/
+button {
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+
+button:hover {
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 50px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
+	cursor: pointer
+}
+
+/*Why the hell is that*/
+/*Pleas do not do that again*/	
+/*img { animation: rotate 3s; }
+@keyframes rotate {
+	 0% { transform: rotate(0deg); }
+	 100% { transform: rotate(360deg); }
+}*/
+
+img:hover { animation: pulse 0.5s;}
+@keyframes pulse {
+	 0%, 100% { transform: scale(1); }
+	 50% { transform: scale(1.2); }
+}
